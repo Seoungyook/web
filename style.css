@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;text-decoration: none;}
+#wrap {width: 1920px; height: 4320px; left: 0; right: 0; margin: 0 auto;}
+.wrap1{width: 1920px; height: 1080px; background-image: url(img/img01.png);
+       background-repeat: no-repeat; background-position: center;transition: 0.5s;}
+.wrap1:hover{background-image: url(img/img01_hover.png);transition: 0.5s;}
+.cont1{width: 1920px; height:1080px; margin: 0 auto;}
+
+.wrap2{width:1920px; height:1080px; background-image: url(img/img18.png);
+       background-repeat: no-repeat; position: relative;}
+.button {color: rgb(0, 0, 0); width:270px; height: 50px; background-image: linear-gradient(25deg, #3312ab, #5166bc, #52b0cb, #08fbd7);
+         text-align: center; line-height:50px; border-radius: 25px; font-size:27px; z-index: 20;position: relative;position: absolute;left: 378px;top: 626px;transition: 0.5s;}
+.button:hover{background-image: linear-gradient(25deg, #1d1d73, #583994, #8d58b6, #c17ad9);color: white;border: 1px solid white;transition: 0.5s;filter: drop-shadow(0px 0px 10px white);}     
+.cont2{width: 1545px; height: 100%; position: absolute; background-image: url(img/img11.png); 
+       background-repeat: no-repeat; left: 128.5px; top: -10px;z-index: 10;}
+
+.wrap3{width: 1920px; height: 1080px; background-image: url(img/img10.png); background-repeat: no-repeat
+       ;  position: relative;}
+.wrap3-1{width:1920px; height: 1080px; background-image: url(img/img12.png); background-repeat: no-repeat;
+       ;  position: absolute; left:-47px; top:141px; }     
+.cont3{width: 1920px; height: 100%; position: absolute; background-image: url(img/img09.png); 
+       background-repeat: no-repeat; left: -1px; top: 13px; }
+
+.wrap4{width: 1920px; height: 1080px; background-image: url(img/img04.png); background-repeat: no-repeat
+       ;  position: relative;}
+.button1{color: rgb(0, 0, 0); width:270px; height: 56px; background-image: linear-gradient(25deg, #3312ab, #5166bc, #52b0cb, #08fbd7);
+       text-align: center; line-height:55px; border-radius: 25px; font-size:30px; z-index: 20;position: relative;position: absolute;transition: 0.5s; top:527px; left: 195px;}
+       .button1:hover{background-image: linear-gradient(25deg, #144289, #6070a4, #99a3c0, #d0d9db);color: white;border: 1px solid white;transition: 0.5s;filter: drop-shadow(0px 0px 10px white);}  
+       .button2{color: rgb(0, 0, 0); width:270px; height: 55.5px; background-image: linear-gradient(25deg, #3312ab, #5166bc, #52b0cb, #08fbd7);
+              text-align: center; line-height:55px; border-radius: 25px; font-size:30px; z-index: 20;position: relative;position: absolute;transition: 0.5s; top:527px; right: 200px;}
+              .button2:hover{background-image: linear-gradient(25deg, #144289, #6070a4, #99a3c0, #d0d9db);color: white;border: 1px solid white;transition: 0.5s;filter: drop-shadow(0px 0px 10px white);}    
+                  
